@@ -11,7 +11,7 @@ const app = express()
 //connect to mongodb
 const dbURL = 'mongodb+srv://khalil:153698ads@nodemongo.apjzf.mongodb.net/node-tuts?retryWrites=true&w=majority'
 mongoose.connect(dbURL, {
-        useNewUrlParser: true,
+        useNewUrlParser: true,  
         useUnifiedTopology: true
     })
     .then((result) => {
